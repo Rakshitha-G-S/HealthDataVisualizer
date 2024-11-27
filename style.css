@@ -1,0 +1,44 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202061;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #ebf5f6;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    color: #0a2d61;
+    margin-bottom: 20px;
+}
+label{
+    color: rgb(215, 243, 243);
+}
+
+
+/* Chart container styles */
+.chart-container {
+    margin-bottom: 30px;
+    background-color: #e9f9ef;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(67, 66, 66, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Data Visualizer</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Navbar */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(238, 241, 250, 0.1);
+            color: rgb(7, 248, 232);
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+        }
+        nav.logo{
+            font-size: 18px;
+            font-weight: bold;
+            color:white;
+        }
+        .nav-links{
+            list-style:none;
+            display: flex;
+            margin : 0 auto;
+            padding:0
+        }
+
+        .nav-links li{
+            margin:0 30px;
+        }
+
+
+        .nav-links li a{
+            color:white;
+            text-decoration:#06f3fb;
+            font-size:16px;
+        }
+        .nav-links li a:hover{
+            text-decoration: underline;
+            text-decoration-color:#06f3fb;
+        }
+
+
+
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            text-decoration-color: aqua;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 80px 20px;
+            min-height: 100vh;
+        }
+
+        #home {
+            background: url('imgs/login.png') no-repeat center center/cover;
+            color: rgb(252, 250, 250);
+            text-align: center;
+        }
+
+        #home h1 {
+            font-size: 3em;
+            margin-top: 50px;
+        }
+
+        #services {
+            background: #04275d;
+        }
+
+        #services h2 {
+            text-align: center;
+        }
+
+        #services .service-item {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgb(128, 157, 245);
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #services a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #bdf8fa;
+            font-weight: bold;
+        }
+
+        #about {
+            background: #5994cf;
+        }
+
+        #about h2 {
+            text-align: center;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.8;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background: #08021f;
+            color: rgb(8, 125, 125);
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        h2{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">Health Visualizer</div>
+    <ul class ="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+    <h1>Visualize Your Health Data</h1>
+    <p>Your health is your wealth. Track, understand, and improve your well-being with data-driven insights.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="service-item">
+        <h3>Heart Rate Calculation With Comprehensive Health Tracking.</h3>
+        <p>
+            Our platform offers a comprehensive suite of tools to help you monitor and improve your health:
+        </p>
+        <ul>
+            <li>Heart Rate Calculation: Monitor your cardiovascular health.</li>
+            <li>Sleep Patterns: Analyze your sleep for better rest.</li>
+            <li>Exercise Routines: Track your fitness progress.</li>
+            <li>Calories Burned: Stay on top of your dietary goals.</li>
+        </ul>
+        <a href="index.html">Explore All Services</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        The Health Data Visualizer is designed to help you take control of your well-being through easy-to-understand data visualizations. 
+        By tracking key metrics like heart rate, sleep patterns, exercise routines, and calories burned, you gain insights into your health trends and can identify areas for improvement.
+    </p>
+    <p>
+        Our goal is to empower individuals to make informed decisions about their health by providing actionable insights in a visually appealing manner.
+    </p>
+</section>
+
+<!-- Footer -->
+<footer>
+    &copy; 2024 Health Data Visualizer. All Rights Reserved.
+</footer>
+
+</body>
+</html>
+ 

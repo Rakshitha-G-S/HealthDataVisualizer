@@ -101,7 +101,7 @@ body {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    color: #a5c6ff; /* Light blue for links */
+    color: #4fea83; /* Light blue for links */
     font-weight: bold;
   }
   
@@ -155,10 +155,10 @@ body {
     background-color: #759ed7; /* Muted blue for chart containers */
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(209, 168, 134, 0.791);
+    box-shadow: 0 2px 10px rgba(195, 168, 147, 0.791);
   }
   
-  /* Form elements */
+  /* Form elements */ 
   input[type="text"] {
     width: 100%;
     padding: 10px;

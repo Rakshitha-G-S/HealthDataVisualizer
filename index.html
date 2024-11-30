@@ -16,7 +16,7 @@
         <li><a href="#services">Services</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="login.html" id="loginLink">Login</a></li>
-        
+        <li><a href="visu.html" id="visuLink" style="display:none;">Visualizer</a></li> <!-- Link to visu.html -->
     </ul>
 </nav>
 
@@ -47,17 +47,12 @@
 <!-- About Section -->
 <section id="about">
     <h2>About Us</h2>
-    <P>
-      Welcome to the Health Visualizer, your personalized tool for tracking and improving your health. Our platform helps you monitor key health metrices like heart rate, calories burned,
-      exercise routines, and sleep patterns. 
-       With interactive graphs and detailed visualizations, we transform raw health data into meaningful insights, empowering you to make informed decisions for a healthier lifestyle.
-    </P>
     <p>
-        Our goal is to empower individuals to make informed decisions about their health by providing actionable insights in a visually appealing manner.
-
+        The Health Data Visualizer is designed to help you take control of your well-being through easy-to-understand data visualizations. 
+        By tracking key metrics like heart rate, sleep patterns, exercise routines, and calories burned, you gain insights into your health trends and can identify areas for improvement.
     </p>
     <p>
-      Discover your potential for better health with the Health Data Visualizer today!
+        Our goal is to empower individuals to make informed decisions about their health by providing actionable insights in a visually appealing manner.
     </p>
 </section>
 
@@ -77,11 +72,11 @@
 
         if (isLoggedIn) {
             loginLink.textContent = 'Logout'; // Change 'Login' to 'Logout'
-            
+            visuLink.style.display = 'inline'; // Show the Visualizer link
             serviceVisuLink.style.display = 'inline'; // Show the 'Explore the Health Visualizer' link in services
         } else {
             loginLink.textContent = 'Login'; // Default to 'Login'
-            
+            visuLink.style.display = 'none'; // Hide the Visualizer link
             serviceVisuLink.style.display = 'none'; // Hide the 'Explore the Health Visualizer' link
         }
 

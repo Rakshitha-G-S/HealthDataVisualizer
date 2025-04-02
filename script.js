@@ -1,4 +1,4 @@
-// Store chart instances globally to allow clearing
+// Store chart instances globally to allow clearing   
 let heartRateChart, caloriesChart, sleepPatternChart, exerciseChart;
 
 // Common color configuration for the charts
